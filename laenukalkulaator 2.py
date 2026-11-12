@@ -81,8 +81,8 @@ while True:
             pass
         else:
             print("The complete summary of the loan:")
-            print("The loan amount is", loan_amount(amount))
-            print("The payback amount is", payback_information(amount, interest, time))
+            loan_amount(amount))
+            payback_information(amount, interest, time))
 
 
     else:
